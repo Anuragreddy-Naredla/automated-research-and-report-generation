@@ -1,0 +1,11 @@
+1. uv --version [To check whether the uv is installed or not]
+2. uv init <GIVE PROJECT NAME>
+3. cd <GIVEN PROJECT NAME>
+4. Type "code ." to open in the vscode
+
+#####CREATING THE VIRTUAL ENVIRONMENT#####
+1. uv venv [FOR CREATING VIRTUALENVIRONMENT]
+   uv venv <ENV NAME> --python <PYTHON VERSION> [FOR CUSTOM NAME CREATION VIRTUALENVIRONMENT]
+2. .venv\Scripts\activate.bat [ACTIVATING VIRTUAL ENVIRONMENT]
+3. uv add -r requirements.txt
+4. uv pip show langgraph [TO SHOW THE INSTALLED LIBRARY]
