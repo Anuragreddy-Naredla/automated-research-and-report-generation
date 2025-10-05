@@ -14,7 +14,7 @@ def load_config(config_path: str | None = None) -> dict:
     """
     env_path = os.getenv("CONFIG_PATH")
     if config_path is None:
-        config_path = env_path or str(_project_root() / "config" / "configuration.yaml")
+        config_path = env_path or str(_project_root() / "config" / "configuration.yml")
 
     path = Path(config_path)
     if not path.is_absolute():

@@ -1,0 +1,12 @@
+{"timestamp": "2025-10-05T09:49:03.043914Z", "level": "info", "event": "OPENAI_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T09:49:03.047032Z", "level": "info", "event": "GOOGLE_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T09:49:03.049038Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T09:49:03.052417Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2025-10-05T09:49:03.054413Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2025-10-05T09:49:03.057414Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
+{"timestamp": "2025-10-05T09:49:54.350207Z", "level": "info", "event": "OPENAI_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T09:49:54.352209Z", "level": "info", "event": "GOOGLE_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T09:49:54.353210Z", "level": "info", "event": "GROQ_API_KEY loaded from environment"}
+{"timestamp": "2025-10-05T09:49:54.354206Z", "level": "warning", "event": "ASTRA_DB_API_ENDPOINT is missing from environment"}
+{"timestamp": "2025-10-05T09:49:54.356206Z", "level": "warning", "event": "ASTRA_DB_APPLICATION_TOKEN is missing from environment"}
+{"timestamp": "2025-10-05T09:49:54.358207Z", "level": "warning", "event": "ASTRA_DB_KEYSPACE is missing from environment"}
