@@ -5,8 +5,6 @@ from datetime import datetime
 from typing import Optional
 from langgraph.types import Send
 from jinja2 import Template
-from dotenv import load_dotenv
-load_dotenv()
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, "../../"))
@@ -43,11 +41,10 @@ class AutonomousReportGenerator:
     """
 
     def __init__(self, llm):
-        tavily_api_key=os.getenv("TAVILY_API_KEY")
         self.llm = llm
         self.memory = MemorySaver()
         self.tavily_search = TavilySearchResults(
-            tavily_api_key=tavily_api_key
+            tavily_api_key="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"
         )
         self.logger = GLOBAL_LOGGER.bind(module="AutonomousReportGenerator")
 
@@ -324,7 +321,7 @@ if __name__ == "__main__":
         reporter = AutonomousReportGenerator(llm)
         graph = reporter.build_graph()
 
-        topic = "Impact of GenAI over the Future of Jobs?"
+        topic = "Impact of LLMs over the Future of Jobs?"
         thread = {"configurable": {"thread_id": "1"}}
         reporter.logger.info("Starting report generation pipeline", topic=topic)
 
