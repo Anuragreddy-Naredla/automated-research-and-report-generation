@@ -8,7 +8,7 @@ from research_and_analysts.api.routes import report_routes
 app = FastAPI(title="Autonomous Report Generator UI")
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
-templates = Jinja2Templates(directory="research_and_analyst/api/templates")
+templates = Jinja2Templates(directory="research_and_analysts/api/templates")
 app.templates = templates  # so templates accessible inside router
 
 # 🔹 ADD THIS FUNCTION

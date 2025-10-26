@@ -1,0 +1,18 @@
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\d_data\AnuragReddy_Naredla_python_data\python\data_science_concepts_github\LLMOPS\project3\automated-research-and-report-generation\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\d_data\AnuragReddy_Naredla_python_data\python\data_science_concepts_github\LLMOPS\project3\automated-research-and-report-generation\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "D:\d_data\AnuragReddy_Naredla_python_data\python\data_science_concepts_github\LLMOPS\project3\automated-research-and-report-generation\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
