@@ -10,5 +10,6 @@ wheels/
 .venv
 
 users.db
+generated_report/
 
 .env
