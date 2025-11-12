@@ -5,8 +5,8 @@
 set -e
 
 # Configuration
-APP_ACR_NAME="researchreportacr"
-IMAGE_NAME="research-report-app"
+APP_ACR_NAME="researchreportacr1241"
+IMAGE_NAME="research-report-app1241"
 TAG="${1:-latest}"
 
 echo "Building Docker image for Research Report Generation System..."

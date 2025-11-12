@@ -26,8 +26,8 @@ pipeline {
         // App configuration
         APP_RESOURCE_GROUP = 'research-report-app-rg'
         APP_NAME = 'research-report-app'
-        ACR_NAME = 'researchreportacr'
-        IMAGE_NAME = 'research-report-app'
+        ACR_NAME = 'researchreportacr1241'
+        IMAGE_NAME = 'research-report-app1241'
         CONTAINER_ENV = 'research-report-env'
     }
     
