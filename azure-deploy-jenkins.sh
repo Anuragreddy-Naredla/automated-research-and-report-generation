@@ -8,7 +8,7 @@ set -e
 # Configuration
 RESOURCE_GROUP="research-report-jenkins-rg"
 LOCATION="eastus"
-STORAGE_ACCOUNT="reportjenkinsstore$RANDOM$(( $(date +%s) % 1000 ))"
+STORAGE_ACCOUNT="rjs$RANDOM$(( $(date +%s) % 1000 ))"
 FILE_SHARE="jenkins-data"
 ACR_NAME="reportjenkinsacr"
 CONTAINER_NAME="jenkins-research-report"
