@@ -1,0 +1,87 @@
+{"timestamp": "2025-11-15T03:48:26.387250Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-11-15T03:48:26.387250Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-11-15T03:48:26.388427Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-11-15T03:48:26.389433Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\d_data\\AnuragReddy_Naredla_python_data\\python\\data_science_concepts_github\\LLMOPS\\project3\\automated-research-and-report-generation\\research_and_analysts\\config\\configuration.yml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-11-15T03:48:26.409037Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-11-15T03:48:26.410072Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-11-15T03:48:26.410072Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-11-15T03:48:30.997122Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-11-15T03:48:31.053436Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-11-15T03:48:31.056262Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-11-15T03:48:31.124889Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-11-15T03:48:31.160493Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "topic": "Relation between India and USA", "thread_id": "b5c4000b-f06a-4bac-866e-f25ec01056db", "timestamp": "2025-11-15T03:48:31.160493Z", "level": "info", "event": "Starting report pipeline"}
+{"module": "AutonomousReportGenerator", "topic": "Relation between India and USA", "timestamp": "2025-11-15T03:48:31.165126Z", "level": "info", "event": "Creating analyst personas"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "count": 3, "timestamp": "2025-11-15T03:48:36.658538Z", "level": "info", "event": "Analysts created"}
+{"timestamp": "2025-11-15T03:50:17.063463Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2025-11-15T03:50:17.064501Z", "level": "info", "event": "OPENAI_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-11-15T03:50:17.065462Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2025-11-15T03:50:17.066463Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\d_data\\AnuragReddy_Naredla_python_data\\python\\data_science_concepts_github\\LLMOPS\\project3\\automated-research-and-report-generation\\research_and_analysts\\config\\configuration.yml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-11-15T03:50:17.070130Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2025-11-15T03:50:17.071225Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-11-15T03:50:17.073659Z", "level": "info", "event": "Loading LLM"}
+{"provider": "openai", "model": "gpt-4o", "timestamp": "2025-11-15T03:50:17.076570Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-11-15T03:50:17.077575Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-11-15T03:50:17.081018Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-11-15T03:50:17.107071Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-11-15T03:50:17.136451Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "thread_id": "b5c4000b-f06a-4bac-866e-f25ec01056db", "timestamp": "2025-11-15T03:50:17.136451Z", "level": "info", "event": "Feedback updated"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Anjali Mehta", "timestamp": "2025-11-15T03:50:17.162188Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Michael Thompson", "timestamp": "2025-11-15T03:50:17.182223Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Priya Kapoor", "timestamp": "2025-11-15T03:50:17.186962Z", "level": "info", "event": "Generating analyst question"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Alex Thompson, and I'm eager to delve into the cultural and social aspects of the India-USA relationship with you. As a Cultural Relations Specialist, could you share an example of how educ", "timestamp": "2025-11-15T03:50:19.319773Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-11-15T03:50:19.327337Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Sarah Mitchell, a journalist with a keen interest in international economics. I'm eager to delve into the economic ties between India and the USA with you. To start, could you share some in", "timestamp": "2025-11-15T03:50:19.715922Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-11-15T03:50:19.717758Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, I'm Alex Thompson, a fellow analyst with a keen interest in international relations. I'm eager to delve into the intricacies of the India-USA relationship with you. \n\nTo start, could you share ", "timestamp": "2025-11-15T03:50:20.015643Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2025-11-15T03:50:20.023404Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "current trade agreements between India and USA 2023 impact on economies", "timestamp": "2025-11-15T03:50:20.727906Z", "level": "info", "event": "Performing Tavily web search"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "impact of educational exchanges on India-USA diplomatic relations", "timestamp": "2025-11-15T03:50:21.277849Z", "level": "info", "event": "Performing Tavily web search"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "India USA partnership response to China's influence in Asia 2023", "timestamp": "2025-11-15T03:50:21.387113Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-11-15T03:50:24.868440Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Anjali Mehta", "timestamp": "2025-11-15T03:50:24.874446Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-11-15T03:50:26.405999Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Michael Thompson", "timestamp": "2025-11-15T03:50:26.408741Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2025-11-15T03:50:27.217701Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Priya Kapoor", "timestamp": "2025-11-15T03:50:27.217701Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": "Expert: The India-USA relationship is multifaceted, with both countries navigating their partnership amidst China's growing influence in Asia. One significant aspect of this relationship is the strong", "timestamp": "2025-11-15T03:50:30.660430Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-11-15T03:50:30.666404Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Anjali Mehta", "timestamp": "2025-11-15T03:50:30.668401Z", "level": "info", "event": "Generating report section"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": "Expert: Educational exchanges have played a significant role in strengthening diplomatic relations between India and the USA. One of the key programs facilitating this is the Fulbright Program, which ", "timestamp": "2025-11-15T03:50:32.430054Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-11-15T03:50:32.431871Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Priya Kapoor", "timestamp": "2025-11-15T03:50:32.435171Z", "level": "info", "event": "Generating report section"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": "Expert: The economic relationship between India and the USA is characterized by significant trade and investment flows. As of 2024, the total goods trade between the two countries was estimated at $12", "timestamp": "2025-11-15T03:50:32.511457Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2025-11-15T03:50:32.515437Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Michael Thompson", "timestamp": "2025-11-15T03:50:32.515437Z", "level": "info", "event": "Generating report section"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "length": 3541, "timestamp": "2025-11-15T03:50:39.048588Z", "level": "info", "event": "Report section generated successfully"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "length": 4607, "timestamp": "2025-11-15T03:50:39.368824Z", "level": "info", "event": "Report section generated successfully"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "length": 3941, "timestamp": "2025-11-15T03:50:44.196958Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "AutonomousReportGenerator", "topic": "Relation between India and USA", "timestamp": "2025-11-15T03:50:44.200169Z", "level": "info", "event": "Generating conclusion"}
+{"module": "AutonomousReportGenerator", "topic": "Relation between India and USA", "timestamp": "2025-11-15T03:50:44.200169Z", "level": "info", "event": "Generating introduction"}
+{"module": "AutonomousReportGenerator", "topic": "Relation between India and USA", "timestamp": "2025-11-15T03:50:44.200738Z", "level": "info", "event": "Writing report"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "length": 804, "timestamp": "2025-11-15T03:50:47.287015Z", "level": "info", "event": "Conclusion generated"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "length": 830, "timestamp": "2025-11-15T03:50:47.752117Z", "level": "info", "event": "Introduction generated"}
+HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "timestamp": "2025-11-15T03:51:01.592106Z", "level": "info", "event": "Report written successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-11-15T03:51:01.596400Z", "level": "info", "event": "Finalizing report compilation"}
+{"module": "AutonomousReportGenerator", "timestamp": "2025-11-15T03:51:01.597354Z", "level": "info", "event": "Report finalized"}
+{"module": "AutonomousReportGenerator", "topic": "Relation between India and USA", "format": "docx", "timestamp": "2025-11-15T03:51:01.602365Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "D:\\d_data\\AnuragReddy_Naredla_python_data\\python\\data_science_concepts_github\\LLMOPS\\project3\\automated-research-and-report-generation\\generated_report\\Relation_between_India_and_USA_20251115_092101\\Relation_between_India_and_USA_20251115_092101.docx", "timestamp": "2025-11-15T03:51:01.712054Z", "level": "info", "event": "Report saved successfully"}
+{"module": "AutonomousReportGenerator", "topic": "Relation between India and USA", "format": "pdf", "timestamp": "2025-11-15T03:51:01.713116Z", "level": "info", "event": "Saving report"}
+{"module": "AutonomousReportGenerator", "path": "D:\\d_data\\AnuragReddy_Naredla_python_data\\python\\data_science_concepts_github\\LLMOPS\\project3\\automated-research-and-report-generation\\generated_report\\Relation_between_India_and_USA_20251115_092101\\Relation_between_India_and_USA_20251115_092101.pdf", "timestamp": "2025-11-15T03:51:01.725034Z", "level": "info", "event": "Centered PDF saved successfully"}
+{"module": "AutonomousReportGenerator", "path": "D:\\d_data\\AnuragReddy_Naredla_python_data\\python\\data_science_concepts_github\\LLMOPS\\project3\\automated-research-and-report-generation\\generated_report\\Relation_between_India_and_USA_20251115_092101\\Relation_between_India_and_USA_20251115_092101.pdf", "timestamp": "2025-11-15T03:51:01.725034Z", "level": "info", "event": "Report saved successfully"}
