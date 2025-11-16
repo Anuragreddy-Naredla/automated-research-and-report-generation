@@ -336,7 +336,8 @@ This project includes multiple deployment-related configuration files and automa
 * 💣 complete-cleanup.sh
     * This shell script is designed to permanently delete all Azure resources associated with your project. It is intentionally strict and uses multiple warnings to prevent accidental deletion. Below is a breakdown of what each part does.
 
-**For step by step deployment follow the deployment_steps.docx**
+**For step by step deployment follow the deployment_steps.docx or deployment_steps.pdf**
 * https://github.com/Anuragreddy-Naredla/automated-research-and-report-generation/blob/master/deploymet_steps.docx
+* https://github.com/Anuragreddy-Naredla/automated-research-and-report-generation/blob/master/deploymet_steps.pdf
 
 
