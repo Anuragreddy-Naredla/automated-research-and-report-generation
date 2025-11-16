@@ -51,3 +51,21 @@
 
 ### Workflow
 ![alt text](image.png)
+
+* Let's breakdown this complex workflow into 3wrokflows
+
+**a. Workflow1: Analyst Creation With Human Feedback Loop**
+
+![alt text](image-1.png)
+
+* This workflow represents the process of creating an AI analyst and integrating human feedback before finalizing the result.
+
+**1. Start Node (__start__)**
+
+* The workflow begins here.
+* This node indicates the initiation of the process, where no actions have been taken yet.
+
+**2. Create Analyst (create_analyst)**
+
+* This step is responsible for generating an AI analyst persona based on the topic, domain, or user inputs.
+
